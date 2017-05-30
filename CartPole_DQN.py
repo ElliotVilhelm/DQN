@@ -135,7 +135,6 @@ with tf.Session() as sess:
 			print("episode: ", episode, "avg Reward: ", total_reward//100.0)
 			total_reward = 0.0
 
-	#print(jList)
 	print("Number of succescful episodes", successful_episodes)
 	print("Percent of successful episodes: ", 100 * successful_episodes / num_episodes)
 
